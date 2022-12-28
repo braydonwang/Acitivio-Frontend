@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/plans/";
+const API_URL = "https://activio.adaptable.app/api/plans/";
 
 const numberOfPlans = async () => {
   const { data } = await axios.get(API_URL + "numPlans");

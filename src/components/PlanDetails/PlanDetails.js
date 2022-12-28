@@ -21,6 +21,8 @@ import {
 } from "../../features/plans/planSlice";
 import axios from "axios";
 
+const url = "https://activio.adaptable.app/api";
+
 const limit = 100;
 
 const getWindowDimensions = () => {
@@ -109,7 +111,7 @@ export default function PlanDetails() {
   const handleUpdateFile = async (base64) => {
     setFile(base64);
     try {
-      await axios.put(`/plans/${plan._id}`, {
+      await axios.put(url + `/plans/${plan._id}`, {
         username: user.username,
         photo: base64,
       });
@@ -118,7 +120,7 @@ export default function PlanDetails() {
 
   const handleDeletePlan = async () => {
     try {
-      await axios.delete(`/plans/${plan._id}`, {
+      await axios.delete(url + `/plans/${plan._id}`, {
         data: { username: user.username },
       });
       navigate("/explore");

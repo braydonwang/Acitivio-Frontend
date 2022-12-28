@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/food/";
+const API_URL = "https://activio.adaptable.app/api/food/";
 
 const getFood = async (username) => {
   const { data } = await axios.get(API_URL + username.username);

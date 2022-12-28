@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/exercises/";
+const API_URL = "https://activio.adaptable.app/api/exercises/";
 
 const getExercises = async (page) => {
   const { data } = await axios.get(`/exercises?page=${page}`);

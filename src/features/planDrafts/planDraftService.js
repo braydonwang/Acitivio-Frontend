@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/planDrafts/";
+const API_URL = "https://activio.adaptable.app/api/planDrafts/";
 
 const getPlanDraft = async (username) => {
   const { data } = await axios.get(API_URL + username.username);
