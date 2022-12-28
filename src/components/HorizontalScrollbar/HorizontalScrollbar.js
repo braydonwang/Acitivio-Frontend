@@ -29,15 +29,15 @@ const RightArrow = () => {
 
 export default function HorizontalScrollbar({ data }) {
   return (
-    <ScrollMenu
-      LeftArrow={LeftArrow}
-      RightArrow={RightArrow}
-      wrapperClassName="scrollmenu"
-      style={{ width: "92vw" }}
-    >
-      {data.map((item, ind) => (
-        <ExerciseCard exercise={item} key={ind} />
-      ))}
-    </ScrollMenu>
+    <div className={classes.scrollmenu}>
+      <ScrollMenu
+        LeftArrow={LeftArrow}
+        RightArrow={RightArrow}
+      >
+        {data.map((item, ind) => (
+          <ExerciseCard exercise={item} key={ind} />
+        ))}
+      </ScrollMenu>
+    </div>
   );
 }
