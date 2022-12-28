@@ -1,28 +1,70 @@
-# Activio: The Ultimate Fitness App
+# Getting Started with Create React App
 
-## What is Activio?
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-A free web and mobile app that is perfect for fitness enthusiasts. Users can create workout plans, search through 1000+ exercises, track calories and explore workout plans from other users.
+## Available Scripts
 
-<img width="1000" alt="HomeScreen" src="https://user-images.githubusercontent.com/16049357/189257633-b24b3eb7-36d7-44dc-bd9d-7fb541dd4302.png">
+In the project directory, you can run:
 
-## Tools/Technologies
+### `npm start`
 
-We used React and Material UI for the front-end, and Node and MongoDB for the back-end. JWT was used for authentication and Redux for global state management.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Inside Look
-<img width="1000" alt="ExercisesScreen" src="https://user-images.githubusercontent.com/16049357/189259637-b594a274-25a9-46d8-9723-3e80a479a831.png"> <img width="1000" alt="WorkoutTimer" src="https://user-images.githubusercontent.com/16049357/189259527-e66c47b7-1ef0-4431-b660-43a012f82103.png"> 
-<img width="1000" alt="WorkoutPlannerScreen" src="https://user-images.githubusercontent.com/16049357/189259606-14a81b73-e9d6-408a-9993-7e2fccadf18f.png"> <img width="1000" alt="NutritionTrackerScreen" src="https://user-images.githubusercontent.com/16049357/189259568-5778879a-512f-4875-b719-ee35a3f88880.png">
-<img width="1000" alt="ExploreScreen" src="https://user-images.githubusercontent.com/16049357/189259558-afe5d7ae-33e7-4918-ae47-3129303cbf0b.png"> <img width="1000" alt="RegisterScreen" src="https://user-images.githubusercontent.com/16049357/189260628-c8b26106-9f61-4554-b525-c22bf05d330d.png">
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Mobile App Repo
-- https://github.com/braydonwang/Activio-Mobile-App
+### `npm test`
 
-## Future Plans
-- Integrate all features of web app to mobile app
-- Implement machine learning (image classification) to calorie tracker
-- Look into pricing plans
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Contributors
-- Braydon Wang
-- Dylan Wang
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
