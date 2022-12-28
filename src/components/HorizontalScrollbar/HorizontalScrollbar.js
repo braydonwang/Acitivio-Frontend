@@ -33,6 +33,7 @@ export default function HorizontalScrollbar({ data }) {
       LeftArrow={LeftArrow}
       RightArrow={RightArrow}
       className={classes.scrollmenu}
+      style={{width: "92vw"}}
     >
       {data.map((item, ind) => (
         <ExerciseCard exercise={item} key={ind} />
