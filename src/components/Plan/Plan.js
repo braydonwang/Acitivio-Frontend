@@ -5,7 +5,7 @@ import { Image } from "../../images/login.jpg";
 import defaultImage from "../../images/defaultImage.png";
 
 export default function Plan({ plan }) {
-  const PF = "http://localhost:5000/images/";
+  // const PF = "http://localhost:5000/images/";
   return (
     <Link to={`/plan/${plan._id}`} className={classes.plan}>
       <img

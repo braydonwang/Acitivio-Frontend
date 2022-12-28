@@ -1,5 +1,6 @@
 import axios from "axios";
 
+const URL = "https://activio.adaptable.app/api"
 const API_URL = "https://activio.adaptable.app/api/plans/";
 
 const numberOfPlans = async () => {
@@ -14,17 +15,17 @@ const createPlan = async (planData) => {
 };
 
 const getPlans = async (search) => {
-  const { data } = await axios.get("/plans" + search);
+  const { data } = await axios.get(URL + "/plans" + search);
   return data;
 };
 
 const getPlan = async (id) => {
-  const { data } = await axios.get("/plans/" + id);
+  const { data } = await axios.get(URL + "/plans/" + id);
   return data;
 };
 
 const updatePlan = async (planData) => {
-  const { data } = await axios.put(`/plans/${planData.id}`, {
+  const { data } = await axios.put(URL + `/plans/${planData.id}`, {
     username: planData.username,
     desc: planData.desc,
     title: planData.title,
@@ -35,7 +36,7 @@ const updatePlan = async (planData) => {
 };
 
 const updateLikes = async (planData) => {
-  const { data } = await axios.put(`/plans/likes/${planData.id}`, {
+  const { data } = await axios.put(URL + `/plans/likes/${planData.id}`, {
     username: planData.username,
   });
   return data;

@@ -1,9 +1,10 @@
 import axios from "axios";
 
+const URL = "https://activio.adaptable.app/api";
 const API_URL = "https://activio.adaptable.app/api/exercises/";
 
 const getExercises = async (page) => {
-  const { data } = await axios.get(`/exercises?page=${page}`);
+  const { data } = await axios.get(URL + `/exercises?page=${page}`);
 
   return data;
 };
